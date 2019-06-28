@@ -130,3 +130,95 @@ header div {
     height: 100px;
     color: #FFFFFF;
 }
+
+h2 {
+    font-family: 'PT_Sans-Web-Regular', sans-serif;
+    color: #5094f2;
+    font-size: 24px;
+}
+
+
+/* .text-contaiber h2,
+p {
+    display: inline-block;
+} */
+
+.text-contaiber {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-container-h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-container-p {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.text-container-p {
+    font-family: 'PT_Sans-Web-Regular', sans-serif;
+    color: #909090;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+main h1 {
+    font-family: 'PT_Sans-Web-Regular', sans-serif;
+    font-size: 36px;
+    color: #6f7173;
+    font-weight: normal;
+}
+
+.shopping-container {
+    display: flex;
+    align-items: center;
+}
+
+.left-block {
+    font-size: 200px;
+    min-width: 50%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.fa {
+    color: #4364a1;
+}
+
+.right-block {
+    min-width: 50%;
+    width: auto;
+}
+
+.right-block h2 {
+    font-family: 'PT_Sans-Web-Regular', sans-serif;
+    font-size: 30px;
+    color: #6f7173;
+    font-weight: normal;
+}
+
+.right-block p {
+    font-family: 'PT_Sans-Web-Regular', sans-serif;
+    font-size: 16px;
+    color: #909090;
+    font-weight: normal;
+}
+
+.bottom-container p {
+    border-top: 1px solid #e5e5e5;
+    font-family: 'PT_Sans-Web-Regular', sans-serif;
+    font-size: 14px;
+    color: #909090;
+    font-weight: normal;
+    padding: 30px 0 40px;
+    text-align: center;
+}
