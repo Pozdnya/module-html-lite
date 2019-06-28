@@ -225,19 +225,16 @@
                  font-size: 80px;
              }
              .firts-section {
-                 display: flex;
                  flex-direction: column;
              }
              .items-respons {
-                 display: flex;
                  flex-direction: row;
-                 align-items: flex-start;
-                 justify-content: space-between;
-                 padding: 32px 30px 18px;
                  border-bottom: 1px solid #909090;
              }
              .items-respon-text {
                  align-items: flex-start;
+                 justify-content: space-around;
+                 padding: 32px 30px 18px;
              }
              .items-respon-text h2 {
                  font-family: 'PT_Sans-Web-Regular', sans-serif;
@@ -248,6 +245,7 @@
                  font-family: 'PT_Sans-Web-Regular', sans-serif;
                  font-size: 20px;
                  color: #909090;
+                 text-align: left;
              }
              .shopping-container {
                  display: flex;
@@ -261,9 +259,9 @@
              }
              .right-block {
                  text-align: left;
+                 padding: 24px 30px;
              }
              .right-block h2 {
-                 padding: 24px 30px;
                  font-size: 36px;
              }
              .right-block p {
