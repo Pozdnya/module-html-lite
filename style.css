@@ -302,6 +302,17 @@
                  }
                  
                  @media (max-width: 400px) {
+                     .logo {
+                         height: 30px;
+                         width: 120px;
+                     }
+                     .but img {
+                         height: 25px;
+                     }
+                     .search input {
+                         height: 30px;
+                         margin-bottom: 10px;
+                     }
                      .round {
                          width: 100px;
                          height: 100px;
@@ -324,6 +335,10 @@
                      }
                      .left-block i {
                          font-size: 120px;
+                         padding: 24px 0 0;
+                     }
+                     a {
+                         font-size: 0px;
                      }
                      .left-block {
                          margin-bottom: 0px;
@@ -335,5 +350,8 @@
                      .right-block p {
                          font-size: 16px;
                          line-height: 20px;
+                     }
+                     .bottom-container p {
+                         padding: 20px 0;
                      }
                  }
